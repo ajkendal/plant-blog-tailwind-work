@@ -8,42 +8,53 @@ Hands-on Tailwind CSS practice based on the Scrimba Learn Tailwind CSS course. F
 
 ### Live demo
 
-- All Challenges: https://ajkendal.github.io/tailwind-work
+- All Challenges: [https://ajkendal.github.io/tailwind-work](https://ajkendal.github.io/tailwind-work)
+
+  - Plant Blog Challenge — `plant-blog-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/plant-blog-challenge)
+  - Pomodoro App Challenge — `pomodoro-app-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/pomodoro-app-challenge)
+  - Testimonials Section Challenge — `testimonial-section-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/testimonial-section-challenge)
+  - Pricing Table Challenge — `pricing-table-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/pricing-table-challenge)
+  - Preferences Form Challenge — `preferences-form-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/preferences-form-challenge)
+  - 404 Page Layout Challenge — `404-page-layout-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/404-page-layout-challenge)
 
 ### What’s here
 
 - All project pages use Tailwind via the CDN (`<script src="https://cdn.tailwindcss.com"></script>`)
-- Static assets in `plant-blog-challenge/img/`
+- Static assets live alongside each challenge (where applicable):
+  - `plant-blog-challenge/img/`
+  - `testimonial-section-challenge/img/`
+  - `preferences-form-challenge/img/`
+  - Others currently use inline SVGs or no external images
 
 ### Features
 
-- Plant Blog Challenge
+- Plant Blog Challenge — [Open demo](https://ajkendal.github.io/tailwind-work/plant-blog-challenge)
 
   - Responsive header and navigation
   - Card grid with images, author info, likes, and hover states
   - Newsletter signup form in the footer
 
-- Pomodoro App Challenge
+- Pomodoro App Challenge — [Open demo](https://ajkendal.github.io/tailwind-work/pomodoro-app-challenge)
 
   - Basic timer UI scaffold and controls layout
   - Responsive, utility-first styling with clear state colors
 
-- Testimonials Section Challenge
+- Testimonials Section Challenge — [Open demo](https://ajkendal.github.io/tailwind-work/testimonial-section-challenge)
 
   - Responsive testimonial cards with avatars
   - Emphasis on typography, spacing, and balanced columns
 
-- Pricing Table Challenge
+- Pricing Table Challenge — [Open demo](https://ajkendal.github.io/tailwind-work/pricing-table-challenge)
 
   - Pricing tiers with feature lists and clear CTAs
   - Highlight/featured plan treatment
 
-- Preferences Form Challenge
+- Preferences Form Challenge — [Open demo](https://ajkendal.github.io/tailwind-work/preferences-form-challenge)
 
   - Accessible form layout with labels and inputs
   - Validation-ready fields and clear affordances
 
-- 404 Page Layout Challenge
+- 404 Page Layout Challenge — [Open demo](https://ajkendal.github.io/tailwind-work/404-page-layout-challenge)
 
   - Mobile-first header with menu toggle and CTA button
   - Friendly empty-state messaging with iconography
@@ -76,14 +87,10 @@ Hands-on Tailwind CSS practice based on the Scrimba Learn Tailwind CSS course. F
 - HTML
 - Tailwind CSS (CDN)
 
-### Challenges
+### Run locally
 
-- Plant Blog Challenge — `plant-blog-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/plant-blog-challenge)
-- Pomodoro App Challenge — `pomodoro-app-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/pomodoro-app-challenge)
-- Testimonials Section Challenge — `testimonial-section-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/testimonial-section-challenge)
-- Pricing Table Challenge — `pricing-table-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/pricing-table-challenge)
-- Preferences Form Challenge — `preferences-form-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/preferences-form-challenge)
-- 404 Page Layout Challenge — `404-page-layout-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/404-page-layout-challenge)
+- Open any challenge’s `index.html` directly in your browser, or
+- Use a local server (e.g., VS Code Live Server/Five Server) for auto‑reload while editing.
 
 ### Design reference
 
