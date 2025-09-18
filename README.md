@@ -49,7 +49,7 @@ First link works now; the rest will work once you add the files at the repo root
 
 - Plant Blog Challenge — `plant-blog-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/plant-blog-challenge)
 - Pomodoro App Challenge — `pomodoro-app-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/pomodoro-app-challenge)
-- Testimonials Section Challenge — `testimonial-section-challenge/index.html` → [Open](./testimonials.html)
+- Testimonials Section Challenge — `testimonial-section-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/testimonial-section-challenge)
 - Pricing Table Challenge — `pricing.html` → [Open](./pricing.html)
 - Preferences Form Challenge — `preferences.html` → [Open](./preferences.html)
 - 404 Page Layout Challenge — `404.html` → [Open](./404.html)
