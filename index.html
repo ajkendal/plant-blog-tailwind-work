@@ -1,9 +1,9 @@
 <!--
 YOUR TASKS
-1. Set the background colour (Slate 700)
-2. Make the text white
-3. Resize the header's icon/logo
-4. Add padding
+1. Handle the layout of card contents
+2. Round the corners of the blog preview card
+3. Change the border style of the header and footer
+4. Style the newsletter sign up
 -->
 
 <!DOCTYPE html>
@@ -14,7 +14,9 @@ YOUR TASKS
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header class="bg-slate-700 text-white p-2 text-center">
+    <header
+      class="bg-slate-700 text-white p-4 text-center border-slate-500 border-b-4 border-double"
+    >
       <section>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -44,32 +46,31 @@ YOUR TASKS
       <!-- CARD CONTAINER -->
       <section class="w-11/12 mx-auto mb-10">
         <!-- CARD -->
-        <section class="w-80 bg-gray-100 mx-auto">
+        <section class="w-80 bg-gray-100 mx-auto rounded-lg">
           <img
+            class="rounded-t-lg"
             src="img/post_houseplants.jpg"
             alt="Houseplants with Attitudes"
           />
 
           <!-- CARD CONTENT -->
-          <section class="p-4">
+          <section class="p-4 flex flex-col gap-2">
             <!-- CARD HEADER -->
-            <section>
-              <section>
-                <section>
-                  <img
-                    class="w-8"
-                    src="img/author_fern.jpg"
-                    alt="Fern Greenleaf"
-                  />
-                  <span class="text-sm text-slate-500">Fern Greenleaf</span>
-                </section>
-                <svg height="20px" viewBox="0 -960 960 960" width="20px">
-                  <path
-                    d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"
-                  />
-                </svg>
-                <span>More options</span>
+            <section class="flex items-center justify-between">
+              <section class="flex items-center">
+                <img
+                  class="w-8 rounded-full"
+                  src="img/author_fern.jpg"
+                  alt="Fern Greenleaf"
+                />
+                <span class="text-sm text-slate-500 ml-2">Fern Greenleaf</span>
               </section>
+              <svg height="20px" viewBox="0 -960 960 960" width="20px">
+                <path
+                  d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"
+                />
+              </svg>
+              <!-- <span>More options</span> -->
             </section>
             <!-- CARD HEADER END -->
 
@@ -92,7 +93,7 @@ YOUR TASKS
             <hr class="my-3" />
 
             <!-- CARD FOOTER -->
-            <section>
+            <section class="flex items-center justify-between">
               <span class="text-sm text-slate-500 italic">9 likes</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +115,9 @@ YOUR TASKS
       </section>
       <!--CARD CONTAINER END-->
     </main>
-    <footer class="bg-slate-700 text-white p-4 text-center mt-auto">
+    <footer
+      class="bg-slate-700 text-white p-4 text-center mt-auto border-slate-500 border-t-4 border-double"
+    >
       <!-- FOOTER CONTENT -->
       <section>
         <h3 class="font-bold uppercase font-mono mb-4">Subscribe</h3>
@@ -122,14 +125,14 @@ YOUR TASKS
           Want to get notified when a new blog post is up? Sign up for the
           newsletter and never miss out!
         </p>
-        <form class="my-4">
+        <form class="my-4 w-full flex">
           <input
-            class="p-2 text-slate-800 pl-4"
+            class="p-2 text-slate-800 rounded-l-lg flex-grow"
             type="email"
             placeholder="email@example.com"
           />
           <input
-            class="bg-slate-300 text-slate-800 p-2 font-medium"
+            class="bg-slate-300 text-slate-800 p-2 font-medium rounded-r-lg"
             type="submit"
             value="Sign Up"
           />
