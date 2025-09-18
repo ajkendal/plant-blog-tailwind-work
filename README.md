@@ -31,8 +31,10 @@ Hands-on Tailwind CSS practice based on the Scrimba Learn Tailwind CSS course. F
 
 ```
 .
-├── index.html        # Plant Blog page
-├── img/              # Images for posts and authors
+├── plant-blog-challenge/
+│   ├── index.html     # Plant Blog page
+│   └── img/           # Images for posts and authors
+├── pomodoro-app-challenge/
 └── README.md
 ```
 
@@ -45,8 +47,8 @@ Hands-on Tailwind CSS practice based on the Scrimba Learn Tailwind CSS course. F
 
 First link works now; the rest will work once you add the files at the repo root:
 
-- Plant Blog Challenge — `index.html` → [Open](https://ajkendal.github.io/plant-blog-tailwind-work/)
-- Pomodoro App Challenge — `pomodoro.html` → [Open](./pomodoro.html)
+- Plant Blog Challenge — `plant-blog-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/plant-blog-challenge)
+- Pomodoro App Challenge — `pomodoro.html` → [Open](https://ajkendal.github.io/tailwind-work/pomodoro-app-challenge)
 - Testimonials Section Challenge — `testimonials.html` → [Open](./testimonials.html)
 - Pricing Table Challenge — `pricing.html` → [Open](./pricing.html)
 - Preferences Form Challenge — `preferences.html` → [Open](./preferences.html)
