@@ -1,9 +1,10 @@
 <!--
 YOUR TASKS
-1. Handle the layout of card contents
-2. Round the corners of the blog preview card
-3. Change the border style of the header and footer
-4. Style the newsletter sign up
+1. Add shadow to card (then remove the temporary background colour)
+2. Colour the SVG heart
+3. Add hover effects (image, shadow, SVG heart)
+4. Add some focus and placeholder styling to the newsletter form
+
 -->
 
 <!DOCTYPE html>
@@ -46,9 +47,9 @@ YOUR TASKS
       <!-- CARD CONTAINER -->
       <section class="w-11/12 mx-auto mb-10">
         <!-- CARD -->
-        <section class="w-80 bg-gray-100 mx-auto rounded-lg">
+        <section class="w-80 shadow-md hover:shadow-lg mx-auto rounded-lg">
           <img
-            class="rounded-t-lg"
+            class="rounded-t-lg opacity-80 hover:opacity-100"
             src="img/post_houseplants.jpg"
             alt="Houseplants with Attitudes"
           />
@@ -96,6 +97,7 @@ YOUR TASKS
             <section class="flex items-center justify-between">
               <span class="text-sm text-slate-500 italic">9 likes</span>
               <svg
+                class="fill-red-200 hover:fill-red-400 cursor-pointer"
                 xmlns="http://www.w3.org/2000/svg"
                 height="20px"
                 viewBox="0 -960 960 960"
@@ -127,7 +129,7 @@ YOUR TASKS
         </p>
         <form class="my-4 w-full flex">
           <input
-            class="p-2 text-slate-800 rounded-l-lg flex-grow"
+            class="p-2 text-slate-800 rounded-l-lg flex-grow placeholder:italic placeholder:pl-2 focus:bg-slate-100"
             type="email"
             placeholder="email@example.com"
           />
