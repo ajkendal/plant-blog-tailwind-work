@@ -48,8 +48,8 @@ Hands-on Tailwind CSS practice based on the Scrimba Learn Tailwind CSS course. F
 First link works now; the rest will work once you add the files at the repo root:
 
 - Plant Blog Challenge — `plant-blog-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/plant-blog-challenge)
-- Pomodoro App Challenge — `pomodoro.html` → [Open](https://ajkendal.github.io/tailwind-work/pomodoro-app-challenge)
-- Testimonials Section Challenge — `testimonials.html` → [Open](./testimonials.html)
+- Pomodoro App Challenge — `pomodoro-app-challenge/index.html` → [Open](https://ajkendal.github.io/tailwind-work/pomodoro-app-challenge)
+- Testimonials Section Challenge — `testimonial-section-challenge/index.html` → [Open](./testimonials.html)
 - Pricing Table Challenge — `pricing.html` → [Open](./pricing.html)
 - Preferences Form Challenge — `preferences.html` → [Open](./preferences.html)
 - 404 Page Layout Challenge — `404.html` → [Open](./404.html)
